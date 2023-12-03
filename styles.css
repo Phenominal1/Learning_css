@@ -60,18 +60,11 @@ body{
     margin-top: 2em;
 }
 
-/* .images-blocks > {
+.images-blocks > {
     width: 470px;
     flex: 0;
     flex-grow: 1;
     align-self: flex-end;
-} */
-
-
-.images-blocks:nth-child(1){
-    align-self: baseline    ;
 }
 
-.images-blocks:nth-child(3){
-    align-self: flex-start;
-}
+
