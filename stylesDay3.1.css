@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+
+}
+
+nav{
+    background-color: #D7E8D4;
+    flex: 0 0 15vw;
+}
+
+nav,article,aside,footer,header{
+    padding: 1rem;
+}
+
+.id{
+    flex: 1;
+    
+}
+
+.block{
+    display: flex;
+    height: calc(100dvh - 212px);
+}
+
+
+article{
+    flex:1;
+}
+
+aside{
+    background-color: cornsilk;
+    flex: 0 0 20vw;
+}
+
+
+header, footer{
+    background-color: greenyellow;    
+    height: 15vh;
+
+}

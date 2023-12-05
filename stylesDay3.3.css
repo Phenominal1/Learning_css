@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: yellowgreen;
+    height: 20vh;
+}
+
+
+.id{
+    display: flex;
+    height: calc(100vh - 284px);
+}
+
+
+nav{
+    order: 1;
+    flex: 0 0 20vw;
+    background-color: #D7E8D4;
+}
+
+article{
+    order:2;
+    flex:1;
+}
+
+aside{
+    order: 3;
+    flex: 0 0 20vw;
+    background-color: cornsilk;
+}
+
+header, footer, nav, article, aside{
+    padding: 1rem;
+}

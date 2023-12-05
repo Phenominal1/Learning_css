@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    display: flex;
+}
+
+.id{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+.block{
+    display: flex;
+    
+}
+
+.inner-block{
+    flex: 1;
+    
+}
+
+nav, header, footer, article, aside{
+    padding: 1rem;
+}
+
+
+nav{
+    flex: 0 0 20vw;
+    background-color: #D7E8D4;
+}
+
+header, footer{
+    background-color: greenyellow;
+    height: 20vh;
+}
+
+aside{
+    flex: 0 0 20vw;
+    background-color: cornsilk;
+}
+
+article{
+    height: calc(100vh - 283px);
+}
